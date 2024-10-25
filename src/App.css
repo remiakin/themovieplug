@@ -1,0 +1,116 @@
+.app {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Overlay for cards */
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Darker overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  z-index: 1;
+}
+
+/* Card Title Styling */
+.card-title {
+  color: #e8f10a; /* Bright yellow for contrast */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 1); /* Strong shadow for clarity */
+  border: 2px solid #ffffff;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.75); /* Darker semi-transparent background */
+  border-radius: 10px;
+  font-weight: bold;
+  z-index: 2;
+  position: relative;
+}
+
+/* Movie title for contrast on any background */
+.movie-title {
+  color: #f0e68c; /* Khaki color for strong contrast */
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8); /* Deeper shadow for contrast */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Detail Text Styling */
+.movie-detail {
+  font-size: 1.2rem;
+  color: #d1d5db; /* Light gray for subtlety against darker headings */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+}
+
+/* Label Styling */
+.movie-label {
+  color: #add8e6; /* Light blue for headings */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Overview Text */
+.movie-overview {
+  font-size: 1.1rem;
+  color: #e0e0e0; /* Light gray for readability */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Heading for Movie Sections */
+.movie-heading {
+  color: #ffeb3b; /* Bright yellow for contrast */
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 1); /* Strong shadow */
+  margin-top: 2rem;
+}
+
+/* Cast List Styling */
+.movie-cast {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie-cast-item {
+  margin-bottom: 0.5rem;
+  color: #f8f9fa; /* Near white for contrast */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Reviews Styling */
+.movie-reviews {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie-review-item {
+  margin-bottom: 0.5rem;
+  color: #f8f9fa;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Paragraph and List Item */
+p {
+  font-size: 1.1rem;
+  color: #fafafa; /* Near white for readability */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+strong {
+  font-weight: bold;
+  color: #ffffff; /* White for emphasis */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1); /* Strong shadow for bold text */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: #d1d5db; /* Light gray for balance */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
